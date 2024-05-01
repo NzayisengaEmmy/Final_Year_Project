@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceremony Planning System</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .services-container {
+            width: 100%; /* Full width */
+            overflow-x: auto; /* Allow horizontal scrolling */
+            white-space: nowrap; /* Prevent wrapping */
+        }
+
+        .service-item {
+            display: inline-block;
+            margin-right: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .service-item img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .service-item p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="services-container">
+    <!-- Division 1 -->
+    <div class="service-item" onclick="window.location.href='next_page1.html';">
+        <img src="catering.jpg" alt="Image 1">
+        <p>Explanation 1</p>
+    </div>
+    
+    <!-- Division 2 -->
+    <div class="service-item" onclick="window.location.href='next_page2.html';">
+        <img src="book.jpg" alt="Image 2">
+        <p>Explanation 2</p>
+    </div>
+    
+    <!-- Division 3 -->
+    <div class="service-item" onclick="window.location.href='next_page3.html';">
+        <img src="HD camera.jpg" alt="Image 3">
+        <p>Explanation 3</p>
+    </div>
+
+    <!-- Add more divisions as needed -->
+</div>
+
+</body>
+</html>
